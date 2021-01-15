@@ -1,0 +1,69 @@
+.textpad5{
+padding: 5px 5px 5px 5px;
+border-bottom: 1px solid #c9d7d8;
+background-color: #effdff;
+}
+.textpadp5{
+	padding-top:10px;
+}
+.mutable{
+	color: #7f7f7f;
+}
+
+
+.textpadp20{
+	padding-top:25px;
+}
+
+.greentext{
+	color: #2e963a;
+}
+
+.textpadp30{
+	padding-top:50px;
+}
+
+.mar{
+	margin-left: 10px;
+}
+.mar20{
+	margin-top: 20px;
+	margin-left: 20px;
+		margin-right: 20px;
+			margin-bottom: 5px;
+}
+
+.grayf{
+	background-color: #565656;
+}
+
+.graylf{
+	background-color: #8c8c8c;
+}
+
+.greyRow{
+	 border: none; /* Убираем границу */
+    background-color: #868b93; /* Цвет линии */
+    color: #868b93; /* Цвет линии для IE6-7 */
+    height: 1px; /* Толщина линии */
+}
+
+.unavailable_notification{
+margin-left: 10%;
+margin-right: 10%;
+background-color: #d1d1d1;
+color: #262626;
+padding:10%;
+}
+
+footer{
+margin-top: 6%;
+background-color: #d1d1d1;
+color: #262626;
+padding-top: 10px;
+padding-bottom: 10px;
+text-align: center;
+}
+
+
+
