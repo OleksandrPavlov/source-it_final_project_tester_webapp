@@ -1,0 +1,48 @@
+Tester webapp.
+The app provide functional for passing diferent test on diferent themes for users.
+Details: 
+The app support sigrigation access by roles to different parts of it's functional part.
+There are four basic roles supported by app(four branches of functional in another word):
+	student branch:
+		features:
+			User logged in under student role have permision to choose any test from the provided list of tests.
+			Then he able review some basic information about the test including passing duration or question count.
+			User can choose mode of passing the test - online or offline (currently acceptable only one mode - offline). After this user will be
+			suggested to accept passing the test (yes or no), after this step he redirected to passing the test.
+			By the end of test user will be shown page with test rusult that include information by each question he answer before 
+			also system provide right and wrong answer list for every question in the list so that user could make sure about degree of his correctness.
+	tutor branch: 
+		features: 
+			User logged under tutor role has permissions for creating complitally new tests that will be assigne to him.
+			It worth be mentioned that tutor have several tools for editing the test:
+				-Add question to created test
+				-Add answer to created test
+				-Edit duration of the test
+				-Rename test(currently not implemented) 
+				-Delete answer
+				-Edit question
+	advanced tutor branch:
+			Anfortunatly the branch is not available yet, waiting soon. 
+			The advanced tutor can approve new tests created by tutors and will check them before they will become available for students.
+	administrator branch:
+		features:
+			User logged under administrator role has permissions for:
+				-Creating new users in the system.
+				-Editing users in the system.
+				-Enabling/Disabling users in the system
+				-To browse information about registrated users.
+The app equiped by registration an logging system.
+	registration:
+		Currently the registration is available only throught the administrator anilities.
+	login:
+		login process proceed through the form with login and password entering. After this system will
+		apply simple primary validation	and will deny/grant the access for asked user.
+Also the app provide some access segregation security.
+	-Only authorized users have access to upper discribed branches, except for general pages.
+	-Authorized users can not go to the login page again.
+	-Users authorized under certain role have not permissions to appeal to the part of another role.
+
+To run the app in your enviroment it strongly recomended to run script by address: tester/src/script on your postgreSQL server.
+	
+		
+		
